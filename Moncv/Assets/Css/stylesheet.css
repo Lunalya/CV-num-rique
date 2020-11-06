@@ -1,0 +1,187 @@
+body{
+	background-image: url('../Img/pinkcloud.jpg');
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+	padding-bottom: 5%;
+	padding-top: 5%;
+
+}
+
+.page{
+	width: 60%;
+	margin: auto;
+	font-size: 16px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 2%;
+	border-left: double #6dc9ba 10px;
+	border-right: double #6dc9ba 10px;
+	border-top: solid #6dc9ba 20px ;
+	border-bottom: solid #6dc9ba 20px ;
+	box-shadow: 10px 17px 15px #d4bac0 ;
+	background-image: url('../Img/Webp.net-resizeimage.jpg');
+	background-repeat: no-repeat;
+	background-position:  right 2% bottom 0%;
+
+}
+
+
+
+.infophoto{
+	max-height: 100%;
+	width: 60%;
+	margin: auto;
+	background: transparent;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0.5%;
+
+}
+
+.nom{
+	text-align: left;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	align-content: center;
+
+
+}
+
+.bouton a {
+	border-radius:12px 0 12px 0;
+	background: #fccfde;
+	border:none;
+	color:#555;
+	font:bold 12px Verdana;
+	padding:12px 15px 12px 15px;
+	box-shadow:1px 1px 3px #999;
+	text-decoration: none;
+
+}
+.bouton a:hover {
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#aabcee+0,bdd0f3+50,b5caf3+51,d6e3f8+100 */
+background: #aabcee; /* Old browsers */
+background: -moz-linear-gradient(top,  #aabcee 0%, #bdd0f3 50%, #b5caf3 51%, #d6e3f8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #aabcee 0%,#bdd0f3 50%,#b5caf3 51%,#d6e3f8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #aabcee 0%,#bdd0f3 50%,#b5caf3 51%,#d6e3f8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aabcee', endColorstr='#d6e3f8',GradientType=0 ); /* IE6-9 */
+
+}
+
+.contact{
+	
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-end;
+	justify-content: flex-end;
+	text-align: right;
+
+}
+
+.photo{
+	float: left;
+	height: 25%;
+	width: 25%;
+	border-radius: 100%;
+}
+
+.experience{
+	margin-top: 3%;
+	margin-bottom: 10%;
+	text-align: justify;
+
+}
+
+.section{
+	
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+.formation{
+	margin-bottom: 5%;
+}
+
+.formaflex{
+	display: flex;
+	justify-content: space-between;
+}
+
+.date{
+	float: left;
+	font-weight: bold;
+	margin-left: 10%;
+	font-size: 18px;
+}
+
+.nomforma{
+	margin-top: 1%;
+	margin-right: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-family: serif;
+}
+
+.titre{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.mois{
+	font-size: 13px;
+	color: #869c8e;
+}
+
+.competence{
+	 
+	 display: flex;
+	 justify-content: space-between;
+
+}
+
+.langue{
+	text-align: center;
+	margin-right: 20%;
+}
+
+.logiciel{
+	text-align: center;
+	margin-left: 15%;
+
+}
+
+.agence{
+	font-weight: bold;
+	font-size:18px;
+}
+
+.duree{
+	font-style: italic;
+	font-weight: normal;
+}
+
+h2{
+	color: #76b8ad;
+	text-transform: uppercase;
+	border-bottom: 3px solid pink;
+
+}
+
+
+}
+
+p{
+	font-family: sans-serif;
+}
+
+.interet{
+	text-align: left;
+}
+
+.centre{
+	margin-left: 8%;
+	margin-bottom: 3%;
+}
+
